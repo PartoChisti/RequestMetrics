@@ -1,0 +1,333 @@
+{
+  "OpenTelemetry": {
+    "Endpoint": "http://127.0.0.1:4317"
+  },
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.File",
+      "Serilog.Filters.Expressions",
+      "Serilog.Sinks.Async",
+      "Serilog.Sinks.Console",
+      "Serilog.Sinks.Grafana.Loki"
+    ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Debug",
+        "System": "Warning",
+        "Microsoft.EntityFrameworkCore.Database.Command": "Warning"
+      }
+    },
+    "Enrich": [ "FromLogContext", "WithMachineName", "WithThreadId" ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj} {Properties}{NewLine}{Exception}"
+        }
+      },
+      {
+        "Name": "GrafanaLoki",
+        "Args": {
+          "uri": "http://localhost:3100",
+          "labels": [
+            {
+              "key": "app",
+              "value": "web_app"
+            }
+          ],
+          "batchPostingLimit": 50,
+          "period": "00:00:02"
+        }
+      },
+      
+        {
+          "Name": "Async",
+          "Args": {
+            "configure": [
+              {
+                "Name": "File",
+                "Args": {
+                  "path": "logs/all.log",
+                  "rollingInterval": "Day",
+                  "retainedFileCountLimit": 15,
+                  "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+
+                }
+              }
+            ]
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "MinimumLevel": "Error",
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/error.log",
+                    "rollingInterval": "Day",
+                    "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "MinimumLevel": "Warning",
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/warning.log",
+                    "rollingInterval": "Day",
+                    "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "MinimumLevel": "Debug",
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/debug.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "StartsWith(SourceContext, 'MyApp.Services.Payment')" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/payment.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@Endpoint <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/endpoint.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@Controller <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/controller.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@UserId <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/user.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@TenantId <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/tenant.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@RequestId <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/request.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": { "expression": "@ConnectionId <> null" }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/connection.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "Filter": [
+                {
+                  "Name": "ByIncludingOnly",
+                  "Args": {
+                    "expression": "StartsWith(SourceContext, 'Microsoft.EntityFrameworkCore.Database.Command')"
+                  }
+                }
+              ],
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/sql.log",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "Logger",
+          "Args": {
+            "configureLogger": {
+              "WriteTo": [
+                {
+                  "Name": "File",
+                  "Args": {
+                    "path": "logs/audit.json",
+                    "formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                    "rollingInterval": "Day"
+                  }
+                }
+              ]
+            }
+          }
+        },
+
+        {
+          "Name": "File",
+          "Args": {
+            "path": "logs/size.log",
+            "rollOnFileSizeLimit": true,
+            "fileSizeLimitBytes": 5242880
+          }
+        }
+    ]
+  }
+}

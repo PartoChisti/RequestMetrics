@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\requestmetrics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\requestmetrics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\extensions\\metricsservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\extensions\\metricsservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\extensions\\requestmetricsloggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\extensions\\requestmetricsloggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\extensions\\requestmetricsmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\extensions\\requestmetricsmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\middleware\\middlewareanalysisseriloglistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\middleware\\middlewareanalysisseriloglistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RequestMetrics.csproj",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\RequestMetrics.csproj",
+              "RelativeDocumentMoniker": "RequestMetrics\\RequestMetrics.csproj",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\RequestMetrics.csproj",
+              "RelativeToolTip": "RequestMetrics\\RequestMetrics.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T11:09:24.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T11:10:03.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestWebApp.csproj",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\TestWebApp.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\TestWebApp.csproj",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\TestWebApp.csproj",
+              "RelativeToolTip": "WebApplication1\\TestWebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-30T11:09:55.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:56:17.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestMetricsLoggingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
+              "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
+              "RelativeToolTip": "RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:55:05.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MetricsServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
+              "RelativeToolTip": "RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:55:02.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MiddlewareAnalysisSerilogListener.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
+              "RelativeDocumentMoniker": "RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
+              "RelativeToolTip": "RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:55:14.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestMetricsMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
+              "RelativeToolTip": "RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:55:01.122Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
