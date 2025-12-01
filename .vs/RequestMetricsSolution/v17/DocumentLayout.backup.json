@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\requestmetrics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\requestmetrics.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\testwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\extensions\\metricsservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\requestmetrics\\middleware\\middlewareanalysisseriloglistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0AF821-F46C-4A6C-A4BE-CEA5907E5D0D}|RequestMetrics\\RequestMetrics.csproj|solutionrelative:requestmetrics\\middleware\\middlewareanalysisseriloglistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|c:\\users\\a.shabanpour\\desktop\\172.16.40.50\\src\\requestmetricssolution\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC34124F-F3AB-47DD-A886-66F6BA00BA43}|WebApplication1\\TestWebApp.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,23 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RequestMetrics.csproj",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\RequestMetrics.csproj",
               "RelativeDocumentMoniker": "RequestMetrics\\RequestMetrics.csproj",
               "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\RequestMetrics.csproj",
               "RelativeToolTip": "RequestMetrics\\RequestMetrics.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-30T11:09:24.38Z"
+              "WhenOpened": "2025-11-30T11:09:24.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
@@ -70,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TestWebApp.csproj",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\TestWebApp.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\TestWebApp.csproj",
@@ -83,19 +84,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T10:56:17.477Z"
+              "WhenOpened": "2025-11-30T10:56:17.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RequestMetricsLoggingExtensions.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
               "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\RequestMetricsLoggingExtensions.cs",
@@ -107,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MetricsServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\MetricsServiceCollectionExtensions.cs",
@@ -119,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MiddlewareAnalysisSerilogListener.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
               "RelativeDocumentMoniker": "RequestMetrics\\Middleware\\MiddlewareAnalysisSerilogListener.cs",
@@ -131,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RequestMetricsMiddlewareExtensions.cs",
               "DocumentMoniker": "C:\\Users\\a.shabanpour\\Desktop\\172.16.40.50\\src\\RequestMetricsSolution\\RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "RequestMetrics\\Extensions\\RequestMetricsMiddlewareExtensions.cs",
